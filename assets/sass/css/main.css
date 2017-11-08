@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  z-index: 100;
+  position: fixed;
+  margin: 0;
+  border: 0; }
+
+.linia {
+  height: 2px;
+  width: 100%;
+  background-color: white; }
+
+.img_fondo {
+  background-image: url(../img/39d17baa172049a3526d2de0a9a32ba5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%; }
+
+#my_section .my_class {
+  background-color: rgba(16, 16, 16, 0.58);
+  color: white;
+  height: 650px;
+  width: 101%; }
+  #my_section .my_class .text {
+    Just-add-water: bounceinLeft;
+    font-size: 40px;
+    font-family: 'Rozha One', serif;
+    margin-top: 30%; }
+  #my_section .my_class button {
+    margin-top: 8%;
+    padding: 20px 30px;
+    background: transparent;
+    border: solid #0AA9B2;
+    border-radius: 20px;
+    font-size: 20px; }
+  #my_section .my_class .buton {
+    padding: 20px;
+    background: black;
+    color: white;
+    font: bold 10px/10px verdana;
+    width: 100px;
+    cursor: pointer;
+    cursor: hand;
+    text-align: center; }
+
+.navbar-default {
+  background-color: #c64a14;
+  height: 64px;
+  width: 100%; }
+  .navbar-default .navbar-collapse ul li a {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2%;
+    color: white;
+    font-size: 15px; }
+
+.img_fondo p {
+  margin-top: 4%;
+  font-size: 15px;
+  color: white; }
+.img_fondo #myCarousel {
+  margin-top: 15%; }
+
+/* -------------SECTION-------------SOBRE--------------MI-------------- */
+#section_sobre_mi {
+  background-color: #e06f0e;
+  height: 590px;
+  width: 100%; }
+  #section_sobre_mi .titulo {
+    color: black; }
+  #section_sobre_mi .text_sobre_mi {
+    margin-top: 8%; }
+    #section_sobre_mi .text_sobre_mi h4 {
+      color: black;
+      font-size: 30px; }
+    #section_sobre_mi .text_sobre_mi p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 15px;
+      color: white; }
+
+/* -------------SECTION--------MIS-------HABILIDADES---------ESTILO-------- */
+#section_habilidades {
+  background-color: antiquewhite;
+  height: 590px;
+  width: 100%; }
+  #section_habilidades .images_hb {
+    margin-top: 5%; }
+  #section_habilidades .mis_emagenes {
+    margin-top: 5%; }
+
+/* --------------SECTION-----------MIS------------PROYECTOS----------------- */
+#section_proyectos {
+  background-image: url(../img/gray-cuadrado-patron-de-fondo-ilustracion-vectorial_1164-1350.jpg);
+  height: 590px;
+  width: 100%; }
+
+/* --------------SECTION----------DE--------MIS-----------CONTACTOS---------- */
+#section_contacto {
+  background-color: #e66e16;
+  height: 590px;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
