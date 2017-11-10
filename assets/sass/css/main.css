@@ -14,10 +14,10 @@ body {
   background-color: white; }
 
 .img_fondo {
-  background-image: url(../img/39d17baa172049a3526d2de0a9a32ba5.jpg);
+  background: url("../img/giphy.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 650px;
+  height: 600px;
   width: 100%; }
 
 #my_section .my_class {
@@ -26,26 +26,17 @@ body {
   height: 650px;
   width: 101%; }
   #my_section .my_class .text {
-    Just-add-water: bounceinLeft;
+    animation: bounceInLeft;
     font-size: 40px;
     font-family: 'Rozha One', serif;
     margin-top: 30%; }
-  #my_section .my_class button {
+  #my_section .my_class .buton {
     margin-top: 8%;
     padding: 20px 30px;
     background: transparent;
     border: solid #0AA9B2;
     border-radius: 20px;
     font-size: 20px; }
-  #my_section .my_class .buton {
-    padding: 20px;
-    background: black;
-    color: white;
-    font: bold 10px/10px verdana;
-    width: 100px;
-    cursor: pointer;
-    cursor: hand;
-    text-align: center; }
 
 .navbar-default {
   background-color: #c64a14;
@@ -68,13 +59,13 @@ body {
 
 /* -------------SECTION-------------SOBRE--------------MI-------------- */
 #section_sobre_mi {
-  background-color: #e06f0e;
+  background-color: #f89b60;
   height: 590px;
   width: 100%; }
   #section_sobre_mi .titulo {
     color: black; }
   #section_sobre_mi .text_sobre_mi {
-    margin-top: 8%; }
+    margin-top: 3%; }
     #section_sobre_mi .text_sobre_mi h4 {
       color: black;
       font-size: 30px; }
@@ -82,6 +73,8 @@ body {
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 15px;
       color: white; }
+  #section_sobre_mi .carousel {
+    margin-top: 10%; }
 
 /* -------------SECTION--------MIS-------HABILIDADES---------ESTILO-------- */
 #section_habilidades {
@@ -89,20 +82,22 @@ body {
   height: 590px;
   width: 100%; }
   #section_habilidades .images_hb {
-    margin-top: 5%; }
-  #section_habilidades .mis_emagenes {
-    margin-top: 5%; }
+    margin-top: 4%; }
+  #section_habilidades img_1 {
+    margin-top: 4%; }
 
 /* --------------SECTION-----------MIS------------PROYECTOS----------------- */
 #section_proyectos {
-  background-image: url(../img/gray-cuadrado-patron-de-fondo-ilustracion-vectorial_1164-1350.jpg);
+  background-color: #f89b60;
   height: 590px;
   width: 100%; }
+  #section_proyectos .my_imagenes img {
+    margin-top: 10px; }
 
 /* --------------SECTION----------DE--------MIS-----------CONTACTOS---------- */
 #section_contacto {
   background-color: #e66e16;
-  height: 590px;
+  height: 500px;
   width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
