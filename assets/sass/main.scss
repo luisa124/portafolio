@@ -1,3 +1,6 @@
+$black: #000000;
+
+
 body {
     margin: 0;
     padding: 0;
@@ -15,7 +18,7 @@ body {
     background-color: white;
 }
 .img_fondo {
-        background: url('../img/giphy.webp');
+        background: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/if98254786d31b25d/version/1500231290/image.gif);
         background-size: cover;
         background-repeat: no-repeat;
         height: 600px;
@@ -23,8 +26,8 @@ body {
     }
 #my_section {
     .my_class {
-        background-color: rgba(16, 16, 16, 0.58);
-        color: white;
+        background-color: rgba(242, 242, 242, 0.58);
+        color: $black;
         height: 650px;
         width: 101%;
         .text {
@@ -101,17 +104,17 @@ body {
     }
 }
 
-/* -------------SECTION--------MIS-------HABILIDADES---------ESTILO-------- */
+// -------------SECTION--------MIS-------HABILIDADES---------ESTILO//
 #section_habilidades {
     background-color: antiquewhite;
-    height: 590px;
-    width: 100%;
-    .images_hb {
+   /*  height: 590px;
+    width: 100%; */
+    /* .images_hb {
         margin-top: 4%;
     }
     img_1 {
-        margin-top: 4%;
-    }
+        margin-top: 8%;
+    } */
 }
 
 /* --------------SECTION-----------MIS------------PROYECTOS----------------- */
@@ -127,11 +130,46 @@ body {
 }
 
 
-/* --------------SECTION----------DE--------MIS-----------CONTACTOS---------- */
+// --------------SECTION----------DE--------MIS-----------CONTACTOS-
 #section_contacto {
-    background-color: #e66e16;
+    background-color: $black;
     height: 500px;
     width: 100%;
+    .contact {
+        p{ 
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        address{
+            color: white;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+     
 }
+
+
+// CONTACTO --------- DEL ----------- FOOTER-
+footer {
+    background-color: darkgray;
+    p{ 
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+    }
+    .container{
+        background-color: white;
+        width: 100%;
+        height: auto;
+    }
+    #endLink-heading a:hover{
+        text-decoration: none;
+        background-color: gray;
+    }
+}
+
 
 
