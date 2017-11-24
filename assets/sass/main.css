@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  background-color: #E8B080;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 5px solid; }
+
+.linia {
+  height: 2px;
+  width: 100%;
+  background-color: white; }
+
+.img_fondo {
+  background-image: url(../img/IMG_0075.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%; }
+
+#my_section .my_class {
+  /* background-color: rgba(255, 255, 255, 0.22);
+  color: $black;
+  height: 650px;
+  width: 101%; */ }
+  #my_section .my_class .text {
+    font-size: 40px;
+    font-family: 'Rozha One', serif;
+    margin-top: 30%; }
+  #my_section .my_class .buton {
+    margin-top: 8%;
+    padding: 20px 30px;
+    background-color: cornflowerblue;
+    border: solid #0AA9B2;
+    border-radius: 20px;
+    font-size: 20px; }
+    #my_section .my_class .buton a {
+      background-color: #000000;
+      color: #fff;
+      transition: .2s ease; }
+      #my_section .my_class .buton a:hover {
+        background-color: transparent;
+        color: #000000;
+        border: 1px solid #000000;
+        transition: .2s ease; }
+
+#section_sobre_mi {
+  background-color: #FF908D;
+  height: 590px;
+  width: 100%; }
+  #section_sobre_mi .titulo {
+    color: black; }
+  #section_sobre_mi .text_sobre_mi {
+    margin-top: 3%; }
+    #section_sobre_mi .text_sobre_mi h4 {
+      color: black;
+      font-size: 30px; }
+    #section_sobre_mi .text_sobre_mi p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 15px;
+      color: white; }
+  #section_sobre_mi .carousel {
+    margin-top: 10%; }
+
+#section_habilidades {
+  background-color: antiquewhite;
+  /*  height: 590px;
+   width: 100%; */
+  /* .images_hb {
+      margin-top: 4%;
+  }
+  img_1 {
+      margin-top: 8%;
+  } */ }
+
+#section_proyectos {
+  background-color: #f89b60;
+  height: 590px;
+  width: 100%; }
+  #section_proyectos .my_imagenes img {
+    margin-top: 10px; }
+
+#espacio {
+  perspective: 1000px;
+  perspective-origin: 50% 50%; }
+
+#hexa, #hexa .cara {
+  width: 400px;
+  height: 300px; }
+
+#hexa {
+  transform-style: preserve-3d;
+  transform-origin: 50% 50% -300px;
+  animation: girar 25s infinite linear running;
+  margin: 100px auto; }
+
+#hexa:hover {
+  animation-play-state: paused; }
+
+#hexa .cara {
+  position: absolute;
+  border: 0;
+  opacity: 1;
+  box-shadow: 0 0 10px #000; }
+
+#hexa .cara:nth-child(1) {
+  background-image: url(../img/Opera%20Snapshot_2017-11-24_102250_luisa124.github.io.png);
+  background-size: cover; }
+
+#hexa .cara:nth-child(2) {
+  background-image: url(http://www.michelacosta.com/proyectos/400x300/cef.jpg);
+  transform-origin: 100% 0%;
+  transform: translateX(-407px) rotateY(-60deg); }
+
+#hexa .cara:nth-child(3) {
+  background-image: url(http://www.michelacosta.com/proyectos/400x300/buenavista.jpg);
+  transform-origin: 0% 0%;
+  transform: translateX(407px) rotateY(60deg); }
+
+#hexa .cara:nth-child(4) {
+  background-image: url(http://www.michelacosta.com/proyectos/400x300/compadres.jpg);
+  transform: translateZ(-700px) rotateY(180deg); }
+
+#hexa .cara:nth-child(5) {
+  background-image: url(http://www.michelacosta.com/proyectos/400x300/cuadra.jpg);
+  transform-origin: 100% 0%;
+  transform: translateZ(-700px) translateX(-400px) rotateY(240deg) translateX(405px); }
+
+#hexa .cara:nth-child(6) {
+  background-image: url(http://www.michelacosta.com/proyectos/400x300/mare.jpg);
+  transform-origin: 0% 0%;
+  transform: translateZ(-700px) translateX(400px) rotateY(120deg) translateX(-405px); }
+
+@keyframes girar {
+  0% {
+    transform: rotateY(0deg); }
+  100% {
+    transform: rotateY(360deg); } }
+.cara > div {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  text-align: center;
+  font-size: 2.2vw; }
+
+#section_contacto {
+  background-color: #000000;
+  height: 500px;
+  width: 100%; }
+  #section_contacto .contact p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold; }
+  #section_contacto .contact address {
+    color: white;
+    font-size: 18px;
+    text-align: center; }
+
+footer {
+  background-color: #000000;
+  height: 50px;
+  width: 100%; }
+  footer p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    color: black; }
+  footer .container {
+    background-color: white;
+    width: 100%;
+    height: auto; }
+  footer #endLink-heading a:hover {
+    text-decoration: none;
+    background-color: gray; }
+
+/*# sourceMappingURL=main.css.map */
