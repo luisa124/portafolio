@@ -5,38 +5,40 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portafolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Rozha+One|Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="../portafolio/assets/img/favicon.ico">
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Rozha+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/sass/css/main.css">
-    <link rel="stylesheet" href="assets/sass/main.scss">
+    <link rel="stylesheet" href="assets/sass/main.scss"> 
 </head>
 <body>
    <!-- MENU----------------DE-------------------NAVEGACION -->
-   <nav class="navbar navbar-default" role="navigation">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><img src="assets/img/patty.png" alt="" height="40"></a>
-      </div>
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#my_section">INICIO</a></li>
-          <li><a href="#section_sobre_mi">SOBRE MI</a></li>
-          <li><a href="#section_habilidades">HABILIDADES</a></li>
-          <li><a href="#section_proyectos">PROYECTOS</a></li>
-          <li><a href="#section_contacto">CONTACTOS</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" id="logo">LUISA</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="li"><a href="#my_section">INICIO</a></li>
+                    <li><a href="#section_sobre_mi">SOBRE MI</a></li>
+                    <li><a href="#section_habilidades">HABILIDADES</a></li>
+                    <li><a href="#section_proyectos">PROYECTOS</a></li>
+                    <li><a href="#section_contacto">CONTACTOS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- SECTION --------------- MY ------------------ HOME -->
     <section id="my_section">
        <div class="flex-container img_fondo">
            <div class="row my_class">
-                <div class="col-xs-12 col-md-7 col-md-offset-3 my_texto">
-                    <h2 class="text-center animated infinite bounceInLeft text">LUISA PATRICIA PACHECCA MAYTA</h2>
+                <div class="col-xs-12 col-md-7 col-md-offset-3 my_texto text-center">
+                    <h2 class="option animated bounceInLeft text">LUISA PATRICIA PACHECCA MAYTA</h2>
                     <hr class="linia text-center">
-                </div>
-                
+                </div> 
                 <!-- todo ----- sobre ------- el ------ boton ------- de --------- menu -->
                 <div class="col-xs-12 col-md-4 col-md-offset-4 text-center">
                     <button type="button" class="buton"><a href="#section_sobre_mi">SOBRE MI</a></button>
@@ -51,95 +53,65 @@
                 <div class="titulo">
                     <h1 class="text-center">SOBRE MI</h1>
                 </div>
-                <div class="text_sobre_mi col-xs-12 col-md-4 col-md-offset-1">
-                   <h4 class="text-center">Sobre Luisa</h4>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi omnis voluptates          repellat doloribus assumenda aperiam saepe. Totam tenetur maiores non nesciunt, consectetur expedita porro sit necessitatibus itaque aliquam, sed sint. ipsum dolor sit amet, consectetur adipisicing elit. Tempore velit sed doloribus architecto deserunt nemo laudantium reiciendis culpa et incidunt fugit iste pariatur obcaecati quis recusandae, ea ipsum veritatis cum! </p>
-               </div>
-               <div class="col-xs-12 col-md-4 col-md-offset-2">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicador-------de-----------carrusel -->
-                    <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                      <li data-target="#myCarousel" data-slide-to="3"></li>
-                    </ol>
-                    <!-- imagenes------------para-------el------carrusel -->
-                    <div class="carousel-inner text-center">
-                      <div class="item active">
-                        <img src="assets/img/image4.jpg" alt="patty" width="480">
-                      </div>
-                      <div class="item">
-                        <img src="assets/img/image3.jpg" alt="paty" width="480">
-                      </div>                  
-                      <div class="item">
-                        <img src="assets/img/image2.jpg" alt="img" width="480">
-                      </div>
-                       <div class="item">
-                        <img src="assets/img/image7.jpg" alt="img" width="480">
-                      </div>
-                    </div>
-                    <!-- indicador-------para------adelantar-------detroseder -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                      <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                      <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                  </div>
-               </div>
-           </div>
-       </div>
+                <div class="text_sobre_mi col-xs-6 col-md-4 col-md-offset-1">
+                    <h4 class="text-center">Sobre Luisa</h4>
+                    <p class="text-center">Soy Luisa una chica con muchas metas y propositos </p>
+                </div>
+                <div class="text_sobre_mi col-xs-6 col-md-4 col-md-offset-1">
+                    <img src="assets/img/IMG_5191.jpg" alt="" width="100">
+                </div>
+            </div>
+        </div>
     </section>
     <!-- SECTION-----------HABILIDADES----------LUISA -->
     <section id="section_habilidades">
         <div class="row">
             <div class="col-xs-12 col-md-10 col-md-offset-1 images_hb">
                 <div class="text-center">
-                   <h1 class="text-center">MIS HABILIDADES</h1>
+                    <h1 class="text-center">MIS HABILIDADES</h1>
                 </div>
                 <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
-                  <br>   
-                   <img src="assets/img/sass.svg" alt="" width="80">
-                   <div class="progress">
-                   <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:90%;"></div>
-                  </div>
-                </div>
-                <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
-                  <br>   
-                   <img src="assets/img/1000px-Wordpress-Logo.svg.png" alt="" width="70">
-                   <div class="progress">
-                   <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:90%;"></div>
-                  </div>
-                </div>
-                <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
-                  <br>   
-                    <img src="assets/img/Git_icon.svg.png" alt="" width="80">
-                   <div class="progress">
-                   <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:90%;"></div>
-                  </div>
-                </div>
-                  <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
-                     <br>
-                      <img src="assets/img/2000px-HTML5_logo_and_wordmark.svg.png" alt="" width="80">
-                      <div class="progress">
-                       <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:95%"></div>
-                      </div>
-                  </div>
-                  <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">                        
-                      <br>
-                      <img src="assets/img/css-3.svg" alt="" width="60">
-                      <div class="progress">
-                       <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:85%;"></div>
-                      </div>
-                  </div>
-                  <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
-                     <br> 
-                      <img src="assets/img/Boostrap_logo.svg" alt="" width="80">
-                     <div class="progress">
+                    <br>   
+                    <img src="assets/img/sass.svg" alt="" width="80">
+                    <div class="progress">
                         <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:90%;"></div>
-                      </div>                       
-                  </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
+                    <br>   
+                    <img src="assets/img/1000px-Wordpress-Logo.svg.png" alt="" width="70">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:90%;"></div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
+                    <br>   
+                    <img src="assets/img/Git_icon.svg.png" alt="" width="80">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:90%;"></div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
+                    <br>
+                    <img src="assets/img/2000px-HTML5_logo_and_wordmark.svg.png" alt="" width="80">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:95%"></div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">                        
+                    <br>
+                    <img src="assets/img/css-3.svg" alt="" width="60">
+                    <div class="progress">
+                       <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:85%;"></div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-md-offset-0 img_1">
+                    <br> 
+                    <img src="assets/img/Boostrap_logo.svg" alt="" width="80">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning active"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style=" width:90%;"></div>
+                    </div>                       
+                </div>
             </div>
         </div>
     </section>
@@ -151,23 +123,60 @@
                    <h1 class="text-center">PROYECTOS</h1>
                 </div>
                 <div class="col-xs-12 col-md-8 col-md-offset-2 my_imagenes">
-                    <div class="col-xs-6 col-md-3 col-md-offset-1">
-                        <img src="assets/img/2000px-Koala.svg.png" alt="" width="150">
-                    </div>
-                    <div class="col-xs-6 col-md-3 col-md-offset-1">
-                        <img src="assets/img/2000px-Koala.svg.png" alt="" width="150">
-                    </div>
-                    <div class="col-xs-6 col-md-3 col-md-offset-1">
-                        <img src="assets/img/2000px-Koala.svg.png" alt="" width="150">
-                    </div>
-                    <div class="col-xs-6 col-md-3 col-md-offset-1">
-                        <img src="assets/img/2000px-Koala.svg.png" alt="" width="150">
-                    </div>
-                    <div class="col-xs-6 col-md-3 col-md-offset-1">
-                        <img src="assets/img/2000px-Koala.svg.png" alt="" width="150">
-                    </div>
-                    <div class="col-xs-6 col-md-3 col-md-offset-1">
-                        <img src="assets/img/2000px-Koala.svg.png" alt="" width="150">
+                    <div class="col-xs-6 col-md-6 col-md-offset-2">
+                       <!--  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            Indicador-------de-----------carrusel
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+                            imagenes------------para-------el------carrusel
+                            <div class="carousel-inner text-center">
+                                <div class="item active">
+                                    <img src="assets/img/IMG_5199.jpg" alt="patty" width="480">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/IMG_5197.jpg" alt="paty" width="480">
+                                </div>                  
+                                <div class="item">
+                                    <img src="assets/img/IMG_5191.jpg" alt="img" width="480">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/IMG_5213.jpg" alt="img" width="480">
+                                </div>
+                            </div>
+                            indicador-------para------adelantar-------detroseder
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div> -->
+                        <div id="espacio">
+                            <div id="hexa" class="cara col-xs-6 col-md-4 col-md-offset-0">
+                                <div class="cara">
+                                    <div><a href="https://luisa124.github.io/Proyecto-Poppy-Love/" target="_blank">CREAMY THEME</a></div>
+                                </div>
+                                <div class="cara">
+                                    <div><a href="http://www.canariasenforma.com" target="_blank">TEA LOVERS</a></div>
+                                </div>    
+                                <div class="cara">
+                                    <div><a href="http://www.buenavistagolf.es" target="_blank">Buenavista Golf</a></div>
+                                </div>
+                                <div class="cara">
+                                    <div><a href="http://www.loscompadres.com" target="_blank">Los Compadres</a></div>
+                                </div>
+                                <div class="cara">
+                                    <div><a href="http://www.lacuadradesandiego.es" target="_blank">La Cuadra de San Diego</a></div>
+                                </div>
+                                <div class="cara">
+                                    <div><a href="http://www.marenatura.es" target="_blank">Mare Naturadventures</a></div>
+                                </div>
+                            </div>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -181,22 +190,22 @@
                     <h1 style="padding-top: 59px" id="port">Contact</h1>
                     <br>
                     <p class="text-center">
-                        Puedes contactarme usando cualquiera de los siguientes medios. Solo dame un toque, te responderé lo antes posible. <br> Gracias.
+                        puedes contactarme dando clink en las siguientes enlaces.
                     </p>
+                    <span class="glyphicon glyphicon-chevron-down"></span>
                     <br><br>
                     <div class="text-center">
-                      <button class="btn btn-default"><a href="https://www.facebook.com/hurriee" target="blank"><span class="fa fa-facebook"></span>Facebook</a></button>
-                      <button class="btn btn-default"> <a href="https://accounts.google.com"><span class="glyphicon glyphicon-envelope"></span> Gmail</a></button>
-                      <button class="btn btn-default"> <a href="mailto:harry_ac07@yahoo.com"><i style="font-size:20px;color:blue" class="fa fa-github-alt"></i> Yahoo!</a></button>
+                        <button class="btn btn-default"><a href="https://www.facebook.com/hurriee" target="blank"><span class="fa fa-facebook"></span>Facebook</a></button>
+                        <button class="btn btn-default"> <a href="https://accounts.google.com"><span class="glyphicon glyphicon-envelope"></span> Gmail</a></button>
+                        <button class="btn btn-default"> <a href="mailto:harry_ac07@yahoo.com"><i style="font-size:20px;color:blue" class="fa fa-github-alt"></i> Yahoo!</a></button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
     <!-- contacto de footer -->
     <footer id="footer" class=" container text-center">
-        <h3 id="endLink-heading"><a id="endLink" href="#home">Home</a></h3>
+        <h3><a id="endLink" href="#">Home</a></h3>
         <p>
            LABORATORIA &copy; : LUISA P. M. WEB DESIGN.
         </p>
