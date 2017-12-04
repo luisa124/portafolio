@@ -29,14 +29,17 @@ header {
         .navbar-toggle {
             color: $black;
         }
-        .navbar-brand {
-            font-family: 'Pacifico', cursive;
-            /* font-size: 28px; */
-            margin-top: 0px;
-            color: $brown;
-            a:hover {
-                color: $black;
-                text-decoration: none;
+        .logo {
+            //margin-top: 8px;
+            .navbar-brand {
+                font-family: 'Pacifico', cursive;
+                font-size: 28px;
+                
+                color: $brown;
+                &:hover {
+                    color: $black;
+                    text-decoration: none;
+                }
             }
         }
         .navbar-brand {

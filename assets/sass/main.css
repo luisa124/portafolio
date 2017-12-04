@@ -14,12 +14,11 @@ header .navbar {
          //border-bottom: 5px solid; */ }
   header .navbar .navbar-toggle {
     color: #000000; }
-  header .navbar .navbar-brand {
+  header .navbar .logo .navbar-brand {
     font-family: 'Pacifico', cursive;
-    /* font-size: 28px; */
-    margin-top: 0px;
+    font-size: 28px;
     color: #a72323; }
-    header .navbar .navbar-brand a:hover {
+    header .navbar .logo .navbar-brand:hover {
       color: #000000;
       text-decoration: none; }
   header .navbar .navbar-brand {
