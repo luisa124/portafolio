@@ -23,6 +23,7 @@ header .navbar {
       text-decoration: none; }
   header .navbar .navbar-brand {
     float: left;
+    padding: 15px 15px;
     font-size: 28px;
     line-height: 0; }
   header .navbar .navbar-nav {
@@ -73,7 +74,7 @@ header .navbar {
 
 #section_sobre_mi {
   background-color: #f7f5f5;
-  height: 660px;
+  height: 700px;
   width: 100%; }
   #section_sobre_mi .titulo {
     margin-top: 8%;
@@ -81,7 +82,7 @@ header .navbar {
     font-size: 25px;
     font-family: 'Francois One', sans-serif; }
   #section_sobre_mi .text_sobre_mi {
-    margin-top: 5%; }
+    margin-top: 2%; }
     #section_sobre_mi .text_sobre_mi h4 {
       border-radius: 50px;
       color: #000000;
