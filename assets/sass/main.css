@@ -101,6 +101,9 @@ header .navbar {
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
     margin-top: 8%; }
+  #section_habilidades .images_hb .wordpress img {
+    background-color: white;
+    border-radius: 50px; }
 
 #section_proyectos {
   background-color: #f7f5f5;
