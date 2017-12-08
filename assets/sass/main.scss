@@ -78,14 +78,15 @@ header {
             /* font-family: 'Francois One', sans-serif; */
             font-family: 'Anton', sans-serif;
             margin-top: 20%; 
-            color: #cbcbcb;
+            color: #ffd938;
             h2 {
                 font-size: 70px;
             }
         }
         a{
-            font-size: 16px;
-            color: $white;
+            font-family: 'Francois One', sans-serif;
+            font-size: 19px;
+            color: $brown;
             margin-top: 5%;
         }
             .sm { 
@@ -95,13 +96,13 @@ header {
                 height: 50px;
             }
             .cta {
-                background-color: $brown;
-                color: $white;
+                background-color: #ffd938;
+                color: $brown;
                 transition: .2s ease;
                 &:hover {
                     background-color: transparent;
-                    color: $black;
-                    border: 2px solid $brown;
+                    color: $brown;
+                    border: 2px solid #ffd938;
                     transition: .2s ease;
                 }
             }
@@ -116,18 +117,20 @@ header {
     height: 700px;
     width: 100%;
     .titulo {
-        margin-top: 8%;
-        color: $brown;
-        font-size: 25px;
-        font-family: 'Francois One', sans-serif;
+        h2{
+            margin-top: 8%;
+            color: $brown;
+            font-size: 50px;
+            font-family: 'Francois One', sans-serif;
+        }
     }
     .text_sobre_mi {
         margin-top: 2%;
-        h4 {
+        /* h4 {
             border-radius: 50px;
             color: $black;
-            font-size: 30px;
-        }
+            font-size: 40px;
+        } */
         p{
             font-family: 'PT Sans Caption', sans-serif;
             /* font-family: 'Merriweather Sans', sans-serif; */
@@ -139,19 +142,43 @@ header {
 
 // -------------SECTION--------MIS-------HABILIDADES---------ESTILO//
 #section_habilidades {
-    background-color: #121111;
+    background-image: url(../img/Intel-Wire-Free-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 650px;
     .images_hb {
+        background-color: rgba(0, 0, 0, 0.74);
+        height: 650px;
+        width: 101%;
+        .img_1 {
+            .progress {
+                overflow: hidden; 
+                width: 100%;
+                height: 30px;
+                .progress-bar {
+                    p {
+                        font-size: 20px;
+                        margin-top: 1%; 
+                    }
+                }
+            }
+        }
         h1 {
-            color: $brown;
-            font-size: 40px;
+            color: #d43f3f;
+            font-size: 60px;
             font-family: 'Francois One', sans-serif;
             margin-top: 8%;
         }
-        .wordpress{
-            img{
-                background-color: white;
+        .wordpress {
+            img {
+                background-color: $white;
                 border-radius: 50px;
+            }
+        }
+        .progress {
+            .progress-bar {
+                height: 200px;
             }
         }
     }
@@ -160,8 +187,11 @@ header {
 // -------------- SECTION --------------- MIS ------------ PROYECTOS//
 #section_proyectos {
     background-color: #f7f5f5;
-    height: 680px;
+    height: 740px;
     width: 100%;
+    #carouselDiv{
+      margin-bottom:30px
+    }
     .my_text {
         h1 {
             color: $brown;
@@ -195,18 +225,11 @@ header {
           animation-play-state: paused;
         }
 
-        #hexa .cara {
-            position: absolute;
-            border: 0;
-            opacity: 1;
-            box-shadow:0 0 10px #000;
-            /* font-family: 'PT Sans Caption', sans-serif; */
-        }
-
         #hexa .cara:nth-child(1) {
             background-image: url(../img/Opera%20Snapshot_2017-11-24_102250_luisa124.github.io.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transform-origin: 0% 0%;
         }
 
         #hexa .cara:nth-child(2) {
@@ -229,11 +252,12 @@ header {
             background-image: url(../img/Opera%20Snapshot_2017-11-24_121019_luisa124.github.io.png);    
             background-repeat: no-repeat;
             background-size: cover;
+            /* transform-origin: 100% 0%; */
             transform: translateZ(-700px) rotateY(180deg);
         }
 
         #hexa .cara:nth-child(5) {
-            background-image: url(../img/panda-panda.png);
+            background-image: url(../img/creamy.png);
             transform-origin: 100% 0%;
             background-repeat: no-repeat;
             background-size: cover;
@@ -257,6 +281,24 @@ header {
           }
         }
 
+        .cara {
+            button {
+                background-color: #ffd938;
+                position: absolute;
+                margin-left: 10%;
+                border-radius: 10px;
+                bottom: 200px;
+                height: 50px;
+                width: 40%;
+                //width: 100%;
+                text-align: center;
+                
+                a {
+                    color: $white; 
+                    font-size: 30px;
+                }
+            }
+        }
         .cara > div {
             color: #e264ed;
             position: absolute;
@@ -277,10 +319,10 @@ header {
 
 // -------------- SECTION ---------- DE -------- MIS ----------- CONTACTOS// 
 #section_contacto {
-    background-color: #0a0a0a;
+    background-color: #2e2c2c;
     height: 500px;
     width: 100%;
-    color: $brown;
+    color: #f8d61b;
    .contact {
        h1 {
            margin-top: 5%;
@@ -299,7 +341,7 @@ header {
             font-weight: bold;
         }
         .glyphicon-chevron-down {
-            color: $brown;
+            color: #f8d61b;
             margin-top: 2%;
             margin-left: 50%;
             font-size: 40px;
@@ -310,7 +352,7 @@ header {
        }
        .glyphicon-envelope {
            color: #b52727;
-           font-size: 32px;
+           font-size: 22px;
        }
        .fa-github {
            color: darkgoldenrod;
